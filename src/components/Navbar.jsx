@@ -19,16 +19,24 @@ function Navbar() {
           </Link>
         </li>
         <li className="p-4">
-          <Link to="#company">Company</Link>
+          <Link to="#company" smooth>
+            Company
+          </Link>
         </li>
         <li className="p-4">
-          <Link to="#resources">Resources</Link>
+          <Link to="#resources" smooth>
+            Resources
+          </Link>
         </li>
         <li className="p-4">
-          <Link to="#about">About</Link>
+          <Link to="#about" smooth>
+            About
+          </Link>
         </li>
         <li className="p-4">
-          <Link to="#contacts">Contacts</Link>
+          <Link to="#contacts" smooth>
+            Contacts
+          </Link>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
