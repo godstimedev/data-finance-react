@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -14,7 +14,9 @@ function Navbar() {
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
       <ul className="hidden md:flex">
         <li className="p-4">
-          <Link to="/">Home</Link>
+          <Link to="/" smooth>
+            Home
+          </Link>
         </li>
         <li className="p-4">
           <Link to="#company">Company</Link>
