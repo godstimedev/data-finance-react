@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 function Hero() {
   return (
-    <div className="text-white">
+    <div className="text-white" id="company">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00df9a] font-bold p-2">
           GROWING WITH DATA ANALYTICS

@@ -5,17 +5,20 @@ import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Hero />
+        <Analytics />
+        <Newsletter />
+        <Cards />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
